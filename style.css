@@ -1,6 +1,7 @@
 
 
 body{
+    margin: 0;
     font-family: 'Philosopher', sans-serif;
 }
 
@@ -15,10 +16,28 @@ h1{
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 8%;
     padding-left: 2%;
 }
 
 .half-width img{
-    width: 100%;
+    width: 75%;
+}
+
+.top-section{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: rgb(197, 5, 117);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-w
+}
+
+section{
+    height: 500px;
 }
