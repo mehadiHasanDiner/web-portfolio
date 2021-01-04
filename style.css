@@ -7,6 +7,7 @@ body{
 
 h1{
     font-size: 50px;
+    margin: 18px 0 -9px;
 }
 
 h2{
@@ -15,10 +16,24 @@ h2{
 
 p{
     color: dimgray;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 10px;
 }
 
 .name-highlight{
     color:rgb(179, 2, 179);
+}
+a.name-highlight {
+    text-decoration: none;
+}
+
+a.name-highlight:hover {
+    color: white;
+    background-image: linear-gradient(to right bottom, #260537, #4f0d56, #7e1373, #b3158c, #eb12a0);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0 4px;
 }
 
 .half-width{
@@ -29,7 +44,7 @@ p{
 }
 
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 
 .top-section{
@@ -39,14 +54,14 @@ p{
 
 .link-button{
     text-decoration: none;
-    background-color: rgb(197, 5, 117);
+    background-image: linear-gradient(to right bottom, #260537, #4f0d56, #7e1373, #b3158c, #eb12a0);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
 }
 
 section{
-    height: 500px;
+    height: 400px;
     padding-bottom: 150px;
 }
 
