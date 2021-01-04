@@ -18,17 +18,18 @@ p{
     color: dimgray;
     font-size: 20px;
     text-align: justify;
-    padding-right: 10px;
+    padding-right: 15px;
+    line-height: 26px;
 }
 
-.name-highlight{
+.orange-highlight{
     color:rgb(179, 2, 179);
 }
-a.name-highlight {
+a.orange-highlight {
     text-decoration: none;
 }
 
-a.name-highlight:hover {
+a.orange-highlight:hover {
     color: white;
     background-image: linear-gradient(to right bottom, #260537, #4f0d56, #7e1373, #b3158c, #eb12a0);
     text-decoration: none;
@@ -54,10 +55,17 @@ a.name-highlight:hover {
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(to right bottom, #260537, #4f0d56, #7e1373, #b3158c, #eb12a0);
+    background-image: linear-gradient(to right bottom, #ff8f44, #eb12a0);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
+}
+
+a.link-button:hover {
+    color: white;
+    background-image: linear-gradient(to right bottom, #260537, #4f0d56, #7e1373, #b3158c, #eb12a0);
+    text-decoration: none;
+    margin: 2px;
 }
 
 section{
@@ -69,4 +77,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(to right bottom, #f0660a, #b3158c, #eb12a0);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(to right bottom, #0a2df0, #b3158c, #eb12a0);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
 }
